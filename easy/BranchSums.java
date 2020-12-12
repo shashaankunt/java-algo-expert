@@ -14,7 +14,11 @@ EXAMPLE:
      / \  / \
     4  5 6  7
    / \  \
-  8  9  10              ->  [15, 16, 18, 10, 11]
+  8  9  10              ->  
+  
+  // Are you sure about the output for the given tree? It doesn't look correct to me.
+  
+  [15, 16, 18, 10, 11]
 
 SOLUTION:
 1. Recursion (maintain currentSum) -> time : O(n) | space : O(n)
